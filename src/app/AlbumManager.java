@@ -4,7 +4,7 @@ package app;
 import entity.Artist;
 import repo.ArtistRepository;
 
-
+import database.ConnectDB;
 public class AlbumManager {
 
 	public static void main(String[] args) {
@@ -31,5 +31,7 @@ public class AlbumManager {
 	    artist2.create(artistNew2);
 	    artist3.create(artistNew3);
 	}
+
+	
 
 }
