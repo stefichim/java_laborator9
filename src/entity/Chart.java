@@ -7,7 +7,7 @@ public class Chart {
 	private int artistId;
 	private int popularitate;
 
-	@Column(name = "ARTIST_ID")
+	@Column(name = "artistId")
 	public int getArtistId() {
 		return artistId;
 	}
